@@ -9,6 +9,6 @@ for word in words:
     elif ord('A') <= ord(word[0]) <= ord('Z'):
         print (int_func(word[0].lower()) + word[1:], ' ', end = '')
     elif word[0].isdigit():
-        print (word, '', end = '')
+        print (word, ' ', end = '')
     else:
-        print ("Введите хотябы все буквы латинские в этом слове...")
+        print ("Сделайте хотябы первую букву латинской в этом слове... ", end = '')
